@@ -4,8 +4,8 @@
 
 ## Screen shots
 
- ![](./screen/screen01.PNG)
- ![](./screen/screen02.PNG)
+ ![](./screen/screen01.png)
+ ![](./screen/screen02.png)
 
 ## Built With
 
