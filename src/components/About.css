@@ -1,0 +1,36 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 5% 20%;
+  gap: 3rem;
+}
+  
+h1 {
+    color: orange;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-text {
+    color: white;
+    text-align: center;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid orange;
+}

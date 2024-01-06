@@ -1,0 +1,17 @@
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  gap : 1rem;
+}
+
+.social-icons {
+  color: gray;
+  font-size: 1.5rem;
+}

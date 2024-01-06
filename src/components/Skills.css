@@ -1,0 +1,42 @@
+.skills-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-section div {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.skills-section ul {
+  padding: 0%;
+}
+
+.skills-section li {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  text-align: center;
+  padding-left: 0%;
+  list-style: none;
+}
+
+h2 {
+  color: orange;
+}
+
+/* .cards-section {
+  padding: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+} */
+  
