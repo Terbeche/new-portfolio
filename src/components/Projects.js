@@ -1,12 +1,30 @@
 const Projects = [
   {
-    title: 'Math-Magicians',
-    featured_image: './images/math_magician.PNG',
+    title: 'Social Network',
+    featured_image: './images/social_network.png',
     description:
-      'Math magicians is a website for all fans of mathematics',
-    technologies: ['Html', 'CSS', 'JavaScript'],
-    link_to_Source: 'https://github.com/Terbeche/Math-Magicians',
-    link_to_live_version: 'https://math-magicians-react-project.netlify.app/',
+    'This is a simple social network where you can create an account, then create, join, and leave groups. You can add posts and comments to these groups. Additionally, you have the ability to edit and delete your posts and comments. If you are the admin, you also have the ability to manage a group.',
+    technologies: ['Rails', 'MySQL', 'Tailwind CSS'],
+    link_to_Source: 'https://github.com/Terbeche/social-network',
+    link_to_live_version: 'https://social-network-web-app-399a54c31085.herokuapp.com/',
+  },
+  {
+    title: 'Recipe App',
+    featured_image: './images/recipe_app.png',
+    description:
+    'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+    technologies: ['Rails', 'PostgreSQL', 'Tailwind CSS'],
+    link_to_Source: 'https://github.com/Terbeche/recipe-app',
+    link_to_live_version: 'https://recipe-web-app-db3d0fbf5df2.herokuapp.com/users/sign_in',
+  },
+  {
+    title: 'Search Engine',
+    featured_image: './images/search_engine.png',
+    description:
+    'This is a search engine where we save the search terms entered by users, based on their IP addresses, and then perform analytics on these searches.',
+    technologies: ['Rails', 'MySQL', 'JavaScript'],
+    link_to_Source: 'https://github.com/Terbeche/search-engine',
+    link_to_live_version: 'https://search-engine-477b674c37d7.herokuapp.com/',
   },
   {
     title: 'Budget App',
@@ -15,7 +33,7 @@ const Projects = [
     'This is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     technologies: ['Rails', 'PostgreSQL', 'React'],
     link_to_Source: 'https://github.com/Terbeche/Budget-app',
-    link_to_live_version: 'https://budget-app-productions.up.railway.app/',
+    link_to_live_version: 'https://budget-web-app-fb4b85a857d6.herokuapp.com/',
   },
   {
     title: 'Product List',
@@ -52,6 +70,15 @@ const Projects = [
     technologies: ['React', 'Redux', 'CSS'],
     link_to_Source: 'https://github.com/Terbeche/countries-information',
     link_to_live_version: 'https://countries-information-api.netlify.app/',
+  },
+  {
+    title: 'Math-Magicians',
+    featured_image: './images/math_magician.PNG',
+    description:
+      'Math magicians is a website for all fans of mathematics',
+    technologies: ['Html', 'CSS', 'JavaScript'],
+    link_to_Source: 'https://github.com/Terbeche/Math-Magicians',
+    link_to_live_version: 'https://math-magicians-react-project.netlify.app/',
   }
 ];
   
