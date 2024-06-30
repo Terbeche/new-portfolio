@@ -51,7 +51,7 @@ const Projects = [
       'This is a website that displays a list of movies from an external API',
     technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/TV-SHOW',
-    link_to_live_version: 'https://www.mostefaterbeche.me/TV-SHOW/',
+    link_to_live_version: 'https://tv-show-platform.netlify.app/',
   },
   {
     title: 'E Learning Platform',
@@ -60,7 +60,7 @@ const Projects = [
       'This is a E-learning-platform website is a simple static website representing an E-Learning platform.',
     technologies: ['Html', 'CSS', 'JavaScript'],
     link_to_Source: 'https://github.com/Terbeche/E-learning-platform',
-    link_to_live_version: 'https://www.mostefaterbeche.me/E-learning-platform/',
+    link_to_live_version: 'https://global-learning-platform.netlify.app/',
   },
   {
     title: 'Countries Information',
