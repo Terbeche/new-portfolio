@@ -14,7 +14,9 @@
 }
 
 .card {
-  flex: 0 1 calc(33.33% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   margin-bottom: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -28,7 +30,7 @@
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 .skill {
