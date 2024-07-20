@@ -1,5 +1,14 @@
 const Projects = [
   {
+    title: 'Weather-App',
+    featured_image: './images/weather_app.png',
+    description:
+      'A weather app to stay up-to-date with the weather all around the world',
+    technologies: ['FastAPI', 'Nuxt', 'NuxtUI'],
+    link_to_Source: 'https://github.com/Terbeche/weather-app',
+    link_to_live_version: 'https://weather-app-dashboard-seven.vercel.app/',
+  },
+  {
     title: 'Social Network',
     featured_image: './images/social_network.png',
     description:
@@ -70,15 +79,6 @@ const Projects = [
     technologies: ['React', 'Redux', 'CSS'],
     link_to_Source: 'https://github.com/Terbeche/countries-information',
     link_to_live_version: 'https://countries-information-api.netlify.app/',
-  },
-  {
-    title: 'Math-Magicians',
-    featured_image: './images/math_magician.PNG',
-    description:
-      'Math magicians is a website for all fans of mathematics',
-    technologies: ['Html', 'CSS', 'JavaScript'],
-    link_to_Source: 'https://github.com/Terbeche/Math-Magicians',
-    link_to_live_version: 'https://math-magicians-react-project.netlify.app/',
   }
 ];
   
